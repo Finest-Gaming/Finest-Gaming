@@ -1,0 +1,25 @@
+body {
+  height: 100vh;
+  font: 400 24px/32px Roboto, Helvetica Neue, sans-serif;
+}
+
+#toolBar {
+  box-shadow: 0 3px 5px -1px rgba(0, 0, 0, .2), 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12);
+  width: 100%;
+  height: 50px;
+  background: #3f51b5;
+  color: white;
+}
+
+#toolBar a {
+  margin-left: 20px;
+  margin-top: 8px;
+  float: left;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+#main {
+  width: 100%;
+}

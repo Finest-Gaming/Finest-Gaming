@@ -1,0 +1,24 @@
+.site {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.site h1 {
+    font-size: 12px;
+}
+
+.site img {
+    max-width: 60%;
+    min-width: 40%;
+}
+
+p {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+strong {
+    font-size: 24px;
+}

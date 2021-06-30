@@ -1,0 +1,70 @@
+@media screen and (max-width: 1550px) {
+    .logo {
+        width: 100% !important;
+    }
+
+    .pros, .cons {
+        width: 50% !important;
+        text-align: center;
+    }
+
+    .details-top {
+        display: block;
+    }
+
+    .details-side {
+        display: none;
+    }
+
+    .details-top, .review {
+        width: calc(100% - 80px) !important;
+    }
+}
+
+@media screen and (min-width: 1550px) {
+    .details-top {
+        display: none;
+    }
+
+    .details-side {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .logo, .pros, .cons, .play-now-button-container {
+        width: 100% !important;
+    }
+}
+
+.logo {
+    width: 25%;
+}
+
+.pros, .cons {
+    width: 25%;
+    margin-bottom: 20px;
+}
+
+.play-now-button-container {
+    width: 25%;
+    display: flex;
+    align-items: center;
+}
+
+.play-now-button {
+    background: #3f51b5;
+    height: 50px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 6px;
+}
+
+.review-section p {
+    font-size: 20px;
+}
+
